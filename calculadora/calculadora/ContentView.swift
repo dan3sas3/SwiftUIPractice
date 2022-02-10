@@ -69,7 +69,8 @@ struct ContentView: View {
                         .foregroundColor(.white)
                         .background(Color.orange)
                         .cornerRadius(10)
-                } //Boton Limpiar (label)
+                } //Boton Limpiar (label
+
             }//VStack 2
         }//VStack 1
         
