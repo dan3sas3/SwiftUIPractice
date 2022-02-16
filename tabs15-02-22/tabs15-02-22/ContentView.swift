@@ -16,7 +16,17 @@ struct ContentView: View {
                 .tabItem{
                     Image(systemName: "phone.fill")
                     Text("Inicio")
-                }
+                }//tabItem
+            ListaSimple()
+                .tabItem{
+                    Image(systemName: "tv.fill")
+                    Text("Television")
+                }//tabItem
+            ListaDeJSON()
+                .tabItem{
+                    Image(systemName: "phone.fill")
+                    Text("Inicio")
+                }//tabItem
         }//TabView
     }
 }

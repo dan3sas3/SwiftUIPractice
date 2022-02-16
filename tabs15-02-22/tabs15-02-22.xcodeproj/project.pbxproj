@@ -11,6 +11,10 @@
 		FB91331827BC71600018257D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB91331727BC71600018257D /* ContentView.swift */; };
 		FB91331A27BC71710018257D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB91331927BC71710018257D /* Assets.xcassets */; };
 		FB91331D27BC71710018257D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB91331C27BC71710018257D /* Preview Assets.xcassets */; };
+		FB91332627BC79570018257D /* ListaSimple.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB91332527BC79570018257D /* ListaSimple.swift */; };
+		FB91332827BC79980018257D /* Gato.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB91332727BC79980018257D /* Gato.swift */; };
+		FB91332A27BC7A080018257D /* ElementoListaGato.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB91332927BC7A080018257D /* ElementoListaGato.swift */; };
+		FB91332D27BC7C8F0018257D /* ListaDeJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB91332C27BC7C8F0018257D /* ListaDeJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,11 @@
 		FB91331727BC71600018257D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB91331927BC71710018257D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB91331C27BC71710018257D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB91332527BC79570018257D /* ListaSimple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaSimple.swift; sourceTree = "<group>"; };
+		FB91332727BC79980018257D /* Gato.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gato.swift; sourceTree = "<group>"; };
+		FB91332927BC7A080018257D /* ElementoListaGato.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementoListaGato.swift; sourceTree = "<group>"; };
+		FB91332B27BC7A230018257D /* gato.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = gato.geojson; sourceTree = "<group>"; };
+		FB91332C27BC7C8F0018257D /* ListaDeJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaDeJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +62,11 @@
 			children = (
 				FB91331527BC71600018257D /* tabs15_02_22App.swift */,
 				FB91331727BC71600018257D /* ContentView.swift */,
+				FB91332527BC79570018257D /* ListaSimple.swift */,
+				FB91332727BC79980018257D /* Gato.swift */,
+				FB91332927BC7A080018257D /* ElementoListaGato.swift */,
+				FB91332C27BC7C8F0018257D /* ListaDeJSON.swift */,
+				FB91332B27BC7A230018257D /* gato.geojson */,
 				FB91331927BC71710018257D /* Assets.xcassets */,
 				FB91331B27BC71710018257D /* Preview Content */,
 			);
@@ -137,7 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB91332D27BC7C8F0018257D /* ListaDeJSON.swift in Sources */,
+				FB91332827BC79980018257D /* Gato.swift in Sources */,
 				FB91331827BC71600018257D /* ContentView.swift in Sources */,
+				FB91332A27BC7A080018257D /* ElementoListaGato.swift in Sources */,
+				FB91332627BC79570018257D /* ListaSimple.swift in Sources */,
 				FB91331627BC71600018257D /* tabs15_02_22App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
