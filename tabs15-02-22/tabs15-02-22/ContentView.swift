@@ -27,6 +27,7 @@ struct ContentView: View {
                     Image(systemName: "phone.fill")
                     Text("Inicio")
                 }//tabItem
+            
         }//TabView
     }
 }
