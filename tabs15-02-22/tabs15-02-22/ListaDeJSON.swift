@@ -10,7 +10,7 @@ import SwiftUI
 struct ListaDeJSON: View {
     
     func leerJSON() -> [Gato]{
-        let url = Bundle.main.url(forResource:"gato", withExtension: "json")!
+        let url = Bundle.main.url(forResource:"gatito", withExtension: "json")!
         let data = try! Data(contentsOf: url)
         let decoder = JSONDecoder()
         let gatos = try? decoder.decode([Gato].self, from:data)
@@ -19,9 +19,15 @@ struct ListaDeJSON: View {
     
     var body: some View {
         let listaGatos = leerJSON()
-        List(listaGatos){
-            g in ElementoListaGato(gato:g)
-            
+        NavigationView{
+           List(listaGatos){
+            g in
+               NavigationLink(destination:VistaDetalle(gato:g)){
+                   ElementoListaGato(gato:g)
+               }
+                
+            }
+
         }
     }
 }
