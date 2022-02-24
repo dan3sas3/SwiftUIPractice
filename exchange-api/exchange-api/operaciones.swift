@@ -50,7 +50,7 @@ class APICall{
     }
     
     func getCurrency(de:String, a:String, monto:Double) async throws -> Convertidor{
-        var urlConsumo = "https://api.exchangerate.host/convert?from=USD&to=EUR"
+        var urlConsumo = "https://api.exchangerate.host/convert"
         urlConsumo = urlConsumo + "?from=" + de + "&to=" + a + "&amount=" + String(format: "%.1f", monto)
         print(urlConsumo)
         guard let url = URL(string: urlConsumo) else{
