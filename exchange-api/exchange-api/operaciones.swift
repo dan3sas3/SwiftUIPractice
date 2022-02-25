@@ -48,8 +48,9 @@ class APICall{
     func vacio() async throws -> Convertidor {
         return  Convertidor.empty
     }
+    
     func getCurrency(de:String, a:String, monto:Double) async throws -> Convertidor{
-        var urlConsumo = "https://api.exchangerate.host/convert?from=USD&to=EUR"
+        var urlConsumo = "https://api.exchangerate.host/convert"
         urlConsumo = urlConsumo + "?from=" + de + "&to=" + a + "&amount=" + String(format: "%.1f", monto)
         print(urlConsumo)
         guard let url = URL(string: urlConsumo) else{
@@ -58,5 +59,15 @@ class APICall{
         let (data, _) = try await URLSession.shared.data(from: url)
         let conv = try JSONDecoder().decode(Convertidor.self, from:data)
         return conv
+    }
+    
+    func getCodigos() async throws -> Symbols {
+        let urlConsumo = "https://api.exchangerate.host/symbols"
+        guard let url = URL(string: urlConsumo) else{
+            throw ConvertidorError.invalidURL
+        }
+        let (data, _) = try await URLSession.shared.data(from: url)
+        let symb = try JSONDecoder().decode(Symbols.self, from:data)
+        return symb
     }
 }
