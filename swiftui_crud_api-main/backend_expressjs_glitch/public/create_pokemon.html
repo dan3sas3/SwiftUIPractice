@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="create_pokemon.js"></script>
+  </head>
+  <body>
+    
+  
+<table id="formulariocreate">
+      <tr>
+  <td>
+<label for="name">nombre_pokemon</label>
+</td>
+<td>
+<input type="text" id="nombre_pokemon" name="nombre_pokemon" required
+        size="10">
+        </td>
+        
+        </tr>
+           <tr>
+  <td>
+<label for="tipo_year">tipo_pokemon</label>
+</td>
+<td>
+<input type="text" id="tipo_pokemon" name="tipo_pokemon" required
+       size="10">
+        </td>
+        
+        </tr>
+   
+        </table>
+        <p id="salida">
+      
+    </p>
+    <button type="button" onclick="creapokemon()">
+      Crea pokemon
+    </button>
+     <p>
+       <a href="/"> Regresar al menu</a>
+    </p>
+</body>
+</html>
