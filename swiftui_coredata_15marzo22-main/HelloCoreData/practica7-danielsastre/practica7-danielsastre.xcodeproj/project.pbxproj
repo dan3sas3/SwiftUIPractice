@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBF9AEBB27E3FF4200B76787 /* practica7_danielsastreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF9AEAB27E3FF4000B76787 /* practica7_danielsastreApp.swift */; };
+		FBF9AEBC27E3FF4200B76787 /* practica7_danielsastreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF9AEAB27E3FF4000B76787 /* practica7_danielsastreApp.swift */; };
+		FBF9AEBD27E3FF4200B76787 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF9AEAC27E3FF4000B76787 /* ContentView.swift */; };
+		FBF9AEBE27E3FF4200B76787 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF9AEAC27E3FF4000B76787 /* ContentView.swift */; };
+		FBF9AEBF27E3FF4200B76787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF9AEAD27E3FF4100B76787 /* Assets.xcassets */; };
+		FBF9AEC027E3FF4200B76787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF9AEAD27E3FF4100B76787 /* Assets.xcassets */; };
+		FBF9AECB27E400BE00B76787 /* School.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBF9AEC927E400BE00B76787 /* School.xcdatamodeld */; };
+		FBF9AECC27E400BE00B76787 /* School.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBF9AEC927E400BE00B76787 /* School.xcdatamodeld */; };
+		FBF9AECE27E401B200B76787 /* VistaAlumnos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF9AECD27E401B200B76787 /* VistaAlumnos.swift */; };
+		FBF9AECF27E401B200B76787 /* VistaAlumnos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF9AECD27E401B200B76787 /* VistaAlumnos.swift */; };
+		FBF9AED127E4025B00B76787 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF9AED027E4025B00B76787 /* CoreDataManager.swift */; };
+		FBF9AED227E4025B00B76787 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF9AED027E4025B00B76787 /* CoreDataManager.swift */; };
+		FBF9AED727E405F800B76787 /* DetallesAlumno.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF9AED627E405F800B76787 /* DetallesAlumno.swift */; };
+		FBF9AED827E405F800B76787 /* DetallesAlumno.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF9AED627E405F800B76787 /* DetallesAlumno.swift */; };
+		FBF9AEDA27E40B2500B76787 /* VistaProfesores.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF9AED927E40B2500B76787 /* VistaProfesores.swift */; };
+		FBF9AEDB27E40B2500B76787 /* VistaProfesores.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF9AED927E40B2500B76787 /* VistaProfesores.swift */; };
+		FBF9AEDD27E40C0900B76787 /* DetallesProfesor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF9AEDC27E40C0900B76787 /* DetallesProfesor.swift */; };
+		FBF9AEDE27E40C0900B76787 /* DetallesProfesor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF9AEDC27E40C0900B76787 /* DetallesProfesor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FBF9AEAB27E3FF4000B76787 /* practica7_danielsastreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practica7_danielsastreApp.swift; sourceTree = "<group>"; };
+		FBF9AEAC27E3FF4000B76787 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FBF9AEAD27E3FF4100B76787 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBF9AEB227E3FF4200B76787 /* practica7-danielsastre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "practica7-danielsastre.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF9AEB827E3FF4200B76787 /* practica7-danielsastre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "practica7-danielsastre.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF9AEBA27E3FF4200B76787 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		FBF9AECA27E400BE00B76787 /* School.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = School.xcdatamodel; sourceTree = "<group>"; };
+		FBF9AECD27E401B200B76787 /* VistaAlumnos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaAlumnos.swift; sourceTree = "<group>"; };
+		FBF9AED027E4025B00B76787 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		FBF9AED627E405F800B76787 /* DetallesAlumno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesAlumno.swift; sourceTree = "<group>"; };
+		FBF9AED927E40B2500B76787 /* VistaProfesores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaProfesores.swift; sourceTree = "<group>"; };
+		FBF9AEDC27E40C0900B76787 /* DetallesProfesor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesProfesor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBF9AEAF27E3FF4200B76787 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF9AEB527E3FF4200B76787 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBF9AEA527E3FF4000B76787 = {
+			isa = PBXGroup;
+			children = (
+				FBF9AEAA27E3FF4000B76787 /* Shared */,
+				FBF9AEB927E3FF4200B76787 /* macOS */,
+				FBF9AEB327E3FF4200B76787 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBF9AEAA27E3FF4000B76787 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				FBF9AEAB27E3FF4000B76787 /* practica7_danielsastreApp.swift */,
+				FBF9AEAC27E3FF4000B76787 /* ContentView.swift */,
+				FBF9AED927E40B2500B76787 /* VistaProfesores.swift */,
+				FBF9AEDC27E40C0900B76787 /* DetallesProfesor.swift */,
+				FBF9AECD27E401B200B76787 /* VistaAlumnos.swift */,
+				FBF9AED027E4025B00B76787 /* CoreDataManager.swift */,
+				FBF9AEC927E400BE00B76787 /* School.xcdatamodeld */,
+				FBF9AED627E405F800B76787 /* DetallesAlumno.swift */,
+				FBF9AEAD27E3FF4100B76787 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		FBF9AEB327E3FF4200B76787 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBF9AEB227E3FF4200B76787 /* practica7-danielsastre.app */,
+				FBF9AEB827E3FF4200B76787 /* practica7-danielsastre.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBF9AEB927E3FF4200B76787 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				FBF9AEBA27E3FF4200B76787 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBF9AEB127E3FF4200B76787 /* practica7-danielsastre (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBF9AEC327E3FF4200B76787 /* Build configuration list for PBXNativeTarget "practica7-danielsastre (iOS)" */;
+			buildPhases = (
+				FBF9AEAE27E3FF4200B76787 /* Sources */,
+				FBF9AEAF27E3FF4200B76787 /* Frameworks */,
+				FBF9AEB027E3FF4200B76787 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "practica7-danielsastre (iOS)";
+			productName = "practica7-danielsastre (iOS)";
+			productReference = FBF9AEB227E3FF4200B76787 /* practica7-danielsastre.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBF9AEB727E3FF4200B76787 /* practica7-danielsastre (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBF9AEC627E3FF4200B76787 /* Build configuration list for PBXNativeTarget "practica7-danielsastre (macOS)" */;
+			buildPhases = (
+				FBF9AEB427E3FF4200B76787 /* Sources */,
+				FBF9AEB527E3FF4200B76787 /* Frameworks */,
+				FBF9AEB627E3FF4200B76787 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "practica7-danielsastre (macOS)";
+			productName = "practica7-danielsastre (macOS)";
+			productReference = FBF9AEB827E3FF4200B76787 /* practica7-danielsastre.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBF9AEA627E3FF4000B76787 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					FBF9AEB127E3FF4200B76787 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					FBF9AEB727E3FF4200B76787 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FBF9AEA927E3FF4000B76787 /* Build configuration list for PBXProject "practica7-danielsastre" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBF9AEA527E3FF4000B76787;
+			productRefGroup = FBF9AEB327E3FF4200B76787 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBF9AEB127E3FF4200B76787 /* practica7-danielsastre (iOS) */,
+				FBF9AEB727E3FF4200B76787 /* practica7-danielsastre (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBF9AEB027E3FF4200B76787 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF9AEBF27E3FF4200B76787 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF9AEB627E3FF4200B76787 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF9AEC027E3FF4200B76787 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBF9AEAE27E3FF4200B76787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF9AEBD27E3FF4200B76787 /* ContentView.swift in Sources */,
+				FBF9AED727E405F800B76787 /* DetallesAlumno.swift in Sources */,
+				FBF9AECB27E400BE00B76787 /* School.xcdatamodeld in Sources */,
+				FBF9AEBB27E3FF4200B76787 /* practica7_danielsastreApp.swift in Sources */,
+				FBF9AED127E4025B00B76787 /* CoreDataManager.swift in Sources */,
+				FBF9AECE27E401B200B76787 /* VistaAlumnos.swift in Sources */,
+				FBF9AEDA27E40B2500B76787 /* VistaProfesores.swift in Sources */,
+				FBF9AEDD27E40C0900B76787 /* DetallesProfesor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF9AEB427E3FF4200B76787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF9AEBE27E3FF4200B76787 /* ContentView.swift in Sources */,
+				FBF9AED827E405F800B76787 /* DetallesAlumno.swift in Sources */,
+				FBF9AECC27E400BE00B76787 /* School.xcdatamodeld in Sources */,
+				FBF9AEBC27E3FF4200B76787 /* practica7_danielsastreApp.swift in Sources */,
+				FBF9AED227E4025B00B76787 /* CoreDataManager.swift in Sources */,
+				FBF9AECF27E401B200B76787 /* VistaAlumnos.swift in Sources */,
+				FBF9AEDB27E40B2500B76787 /* VistaProfesores.swift in Sources */,
+				FBF9AEDE27E40C0900B76787 /* DetallesProfesor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FBF9AEC127E3FF4200B76787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBF9AEC227E3FF4200B76787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FBF9AEC427E3FF4200B76787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dansa.practica7-danielsastre";
+				PRODUCT_NAME = "practica7-danielsastre";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBF9AEC527E3FF4200B76787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dansa.practica7-danielsastre";
+				PRODUCT_NAME = "practica7-danielsastre";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBF9AEC727E3FF4200B76787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dansa.practica7-danielsastre";
+				PRODUCT_NAME = "practica7-danielsastre";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FBF9AEC827E3FF4200B76787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dansa.practica7-danielsastre";
+				PRODUCT_NAME = "practica7-danielsastre";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBF9AEA927E3FF4000B76787 /* Build configuration list for PBXProject "practica7-danielsastre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF9AEC127E3FF4200B76787 /* Debug */,
+				FBF9AEC227E3FF4200B76787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBF9AEC327E3FF4200B76787 /* Build configuration list for PBXNativeTarget "practica7-danielsastre (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF9AEC427E3FF4200B76787 /* Debug */,
+				FBF9AEC527E3FF4200B76787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBF9AEC627E3FF4200B76787 /* Build configuration list for PBXNativeTarget "practica7-danielsastre (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF9AEC727E3FF4200B76787 /* Debug */,
+				FBF9AEC827E3FF4200B76787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FBF9AEC927E400BE00B76787 /* School.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FBF9AECA27E400BE00B76787 /* School.xcdatamodel */,
+			);
+			currentVersion = FBF9AECA27E400BE00B76787 /* School.xcdatamodel */;
+			path = School.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FBF9AEA627E3FF4000B76787 /* Project object */;
+}
